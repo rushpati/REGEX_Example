@@ -19,10 +19,10 @@ class Trade{
     }
     @Override
     public String toString() {
-        return "Trade{" +
+        return "T{" +
                 "id=" + id +
-                ", tradeName='" + tradeName + '\'' +
-                ", tradeValue=" + tradeValue +
+                ", TName='" + tradeName + '\'' +
+                ", TValue=" + tradeValue +
                 '}';
     }
 
@@ -52,21 +52,13 @@ public class RegexExample {
         emplist.add(new Trade(6,"apac",683.1));
         emplist.add(new Trade(2,"global",932.1));
         /*Stream.of(emplist).forEach(a -> System.out.println(a));*/
-        Stream s1 = Stream.of(emplist);
-        System.out.println(s1);
-
+        emplist.stream().forEach(s->System.out.println(s));
         
         HashMap hm = new HashMap();
 
         hm.put("one",new Integer(1));
         hm.put(null,"two");
         hm.put(null,"three");
-        /*hm.entrySet().stream().forEach(s -> {System.out.println(s.hashCode());
-            System.out.println(s);}
-        );
-
-         */
-
 
     }
 
