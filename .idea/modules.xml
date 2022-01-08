@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Curd Operation/Curd-Operation/Curd-Operation.iml" filepath="$PROJECT_DIR$/../Curd Operation/Curd-Operation/Curd-Operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/REGEX-EAMPLE.iml" filepath="$PROJECT_DIR$/REGEX-EAMPLE.iml" />
+    </modules>
+  </component>
+</project>
