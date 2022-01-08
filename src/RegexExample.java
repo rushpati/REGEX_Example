@@ -19,10 +19,10 @@ class Trade{
     }
     @Override
     public String toString() {
-        return "T{" +
+        return "Trade{" +
                 "id=" + id +
-                ", TName='" + tradeName + '\'' +
-                ", TValue=" + tradeValue +
+                ", TradeName='" + tradeName + '\'' +
+                ", TradeValue=" + tradeValue +
                 '}';
     }
 
